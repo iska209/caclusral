@@ -1,0 +1,41 @@
+@import 'https://raw.githubusercontent.com/jonathantneal/system-font-css/gh-pages/system-font.css';
+
+body {
+    background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink) fixed;
+	color: white;
+    font: normal 32px/1.6 system-ui, sans-serif;
+	text-shadow: 0 1px 1px hsl(0 0% 0% / 20%);
+    margin: 3rem;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus,
+a:hover {
+  text-decoration-color: black;
+}
+
+input, button {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    text-decoration-color: black;
+}
+
+p {
+    text-align: center;
+}
